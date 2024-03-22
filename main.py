@@ -2,6 +2,7 @@ from youtube import YoutubeAudio, DownloadInfo, PlaylistInfo
 import sys
 import json
 
+
 DOWNLOADED_SONGS_CACHE = "downloaded.json"
 DOWNLOADS_FOLDER = "playlists"
 
