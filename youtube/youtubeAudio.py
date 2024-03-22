@@ -3,6 +3,7 @@ import os
 from pytube import YouTube, Playlist
 from .converting import convert_to_mp3
 
+
 @dataclass
 class DownloadInfo:
     title:str
