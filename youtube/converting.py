@@ -17,7 +17,5 @@ def convert_to_mp3(input_file: DIR) -> Exception|DIR:
         return output_file
     
     except Exception as e:
-        print(e)
-    
-def convert_to_safe_filename(filename: str) -> str:
-    return re.sub(r'[<>:"/\\|?*]', '_', filename)
+        #Temporary
+        print(f"Error:{e}")
